@@ -1,5 +1,26 @@
 {
   "name": "qr-attendance-backend",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrlim0413-blip/qr-attendance-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrlim0413-blip/qr-attendance-backend/issues"
+  },
+  "homepage": "https://github.com/jrlim0413-blip/qr-attendance-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
 }
